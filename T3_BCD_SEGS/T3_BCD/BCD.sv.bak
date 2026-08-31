@@ -1,0 +1,9 @@
+module BCD #(
+	parameter
+)(
+	input
+	
+	output
+);
+
+endmodule

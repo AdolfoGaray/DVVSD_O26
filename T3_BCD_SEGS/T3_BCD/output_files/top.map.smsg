@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at BCD.sv(4): object "BCD0" differs only in case from object "bcd0" in the same scope File: C:/Users/adolf/AppData/Local/quartus/T3_BCD/BCD.sv Line: 4
+Info (10281): Verilog HDL Declaration information at BCD.sv(5): object "BCD1" differs only in case from object "bcd1" in the same scope File: C:/Users/adolf/AppData/Local/quartus/T3_BCD/BCD.sv Line: 5
+Info (10281): Verilog HDL Declaration information at BCD.sv(7): object "BCD2" differs only in case from object "bcd2" in the same scope File: C:/Users/adolf/AppData/Local/quartus/T3_BCD/BCD.sv Line: 7
