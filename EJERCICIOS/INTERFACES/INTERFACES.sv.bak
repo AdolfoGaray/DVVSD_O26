@@ -1,0 +1,36 @@
+interface MICROBUSERO#(parameter DW = 64)(input logic clk);
+    //reset
+    logic rst,
+ 
+    // data
+    logic [DW - 1 : 0] data0,
+    logic [DW - 1 : 0] data1,
+    logic square,
+ 
+    // control
+    logic start,
+    logic ready,
+ 
+    // data
+    logic [2 * DW - 1 : 0]result
+endinterface
+
+module INTERFACES (
+    // clock and reset
+    input clk,
+    input rst,
+ 
+    // Input data
+    input [DW - 1 : 0] data0,
+    input [DW - 1 : 0] data1,
+    input square,
+ 
+    // control
+    input start,
+    output logic ready,
+ 
+    // Output data
+    output logic [2 * DW - 1 : 0]result
+);
+
+endmodule
