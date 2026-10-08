@@ -17,7 +17,7 @@ end
 always_ff @(posedge clk or negedge rst) begin
 	if(rst) register <= '0;
 	if(baudrate_enable) begin
-		else register <= register_next;
+		register <= register_next;
 	end
 end
 

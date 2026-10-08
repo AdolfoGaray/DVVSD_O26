@@ -1,14 +1,16 @@
+import parity_pkg::*;
+
 module TX_WRAPPER #(
     parameter baudrate = 5,
     parameter parity = PARITY_ODD
 )(
-    interface UART_INTERFACE
+    UART_INTERFACE uart_itf
 );
 
-TX tx #(
-    parameter baudrate = 5,
-    parameter parity = PARITY_NONE
-)(
+TX #(
+    .baudrate(baudrate),
+    .parity(parity)
+) tx (
     .clk(UART_INTERFACE.clk),
     .rst(UART_INTERFACE.rst),
     .data_in(UART_INTERFACE.data_in),

@@ -7,11 +7,11 @@ interface UART_INTERFACE (input logic clk);
     modport PARA_TX_TB (
         input clk, data_out, ready,
         output rst, send_bit,
-        output [7:0] data_in
+        output data_in
     );
     modport PARA_TX_WRAPPER (
         input clk, rst, send_bit,
-        input [7:0] data_in,
+        input data_in,
         output data_out, ready
     );
 

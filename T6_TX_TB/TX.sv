@@ -13,7 +13,7 @@ module TX #(
     output logic ready
 );
 
-logic baudrate_enable, parity_enable, load_not_shift, ready, data_bit;
+logic baudrate_enable, parity_enable, load_not_shift, data_bit;
 logic [1:0] output_selector;
 
 CLK_BAUDRATE #(.baudrate(baudrate)) clk_baudrate(

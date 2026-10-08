@@ -1,3 +1,5 @@
+import parity_pkg::*;
+
 class TESTER #(
     parameter baudrate = 5,
     parameter parity = PARITY_ODD
