@@ -15,21 +15,29 @@ logic clk=0;
 parameter baudrate = 5;
 
 UART_INTERFACE uart_itf(.clk(clk));
-TESTER testeador;
+TESTER #(.baudrate(baudrate),.parity(parity)) testeador;
 
 TX_WRAPPER #(.baudrate(baudrate),.parity(parity)) tx_DUT(.uart_itf(uart_itf));
 
 always #1 clk = ~clk;
 
+task TESTING(input logic [7:0] data);
+    testeador.PREPARE_DATA(data);
+    testeador.BUILD_EXPECTED_DATA();
+    #1;
+    testeador.SEND_BIT();
+    testeador.COLLECT_DATA();
+    testeador.CHECK_DATA();
+endtask
+
 initial begin
-testeador = new(uart_itf);
-testeador.INITIAL_CONDITIONS();
-testeador.PREPARE_DATA(8'b01010101);
-testeador.BUILD_EXPECTED_DATA();
-#1;
-testeador.SEND_BIT();
-testeador.COLLECT_DATA();
-testeador.CHECK_DATA();
+    testeador = new(uart_itf);
+    testeador.INITIAL_CONDITIONS();
+    testeador.DISPLAY_PARITY();
+    TESTING(8'b00000001);
+    TESTING(8'b01010101);
+    TESTING(8'b11110000);
+    TESTING(8'b01110100);
 end
 
     

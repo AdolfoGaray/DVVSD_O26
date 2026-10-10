@@ -1,5 +1,5 @@
 2 10 parity_pkg 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 5 0
-2 10 tester_pkg 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 200 0
+1 10 tester_pkg 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 301 0
 2 22 UART_INTERFACE_sv_unit 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 0 0
 1 13 TX_TB_sv_unit 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 1 0
 2 18 TX_WRAPPER_sv_unit 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 0 0
@@ -9,12 +9,12 @@
 2 14 TX_FSM_sv_unit 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 0 0
 2 14 MUX4A1_sv_unit 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 0 0
 2 14 UART_INTERFACE 5 synth 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 0 0
-1 14 UART_INTERFACE 7 fast__2 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 10 0
-1 12 CLK_BAUDRATE 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 34 0
-2 13 PARITY_GETTER 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 58 0
-1 6 TX_FSM 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 113 0
-1 15 PISO_LSB_SIGNED 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 68 0
+2 14 UART_INTERFACE 7 fast__2 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 10 0
+2 12 CLK_BAUDRATE 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 43 0
+1 13 PARITY_GETTER 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 58 0
+2 6 TX_FSM 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 133 0
+2 15 PISO_LSB_SIGNED 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 65 0
 2 6 MUX4A1 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 33 0
-1 2 TX 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 357 0
-1 10 TX_WRAPPER 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 376 0
-1 5 TX_TB 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 431 0
+1 2 TX 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 51 0
+1 10 TX_WRAPPER 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 19 0
+1 5 TX_TB 4 fast 38 C:/Users/adolf/DVVSD_O26/T6_TX_TB/work 0 0 0 0 69 0
