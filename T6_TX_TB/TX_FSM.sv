@@ -24,8 +24,8 @@ typedef enum logic [2:0] {
 tx_state tx_state_reg;
 logic [2:0] counter_8;
 
-always_ff @(posedge clk) begin
-    if(rst) begin
+always_ff @(posedge clk or negedge rst) begin
+    if(!rst) begin
         tx_state_reg <= IDLE;
         load_not_shift <= 1'b0;
         counter_8 <= 1'b0;

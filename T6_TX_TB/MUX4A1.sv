@@ -1,6 +1,6 @@
 import output_pkg::*;
 
-module MUX4a1 (
+module MUX4A1 (
     input logic data_bit,
     input logic parity_bit,
     input logic [1:0] output_selector,

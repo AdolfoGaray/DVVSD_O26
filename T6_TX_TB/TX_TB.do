@@ -13,3 +13,9 @@ vlog TX.sv
 vlog TX_WRAPPER.sv
 vlog TESTER.sv
 vlog +define+parity=PARITY_ODD TX_TB.sv
+
+vsim -voptargs=+acc work.TX_TB
+view wave
+add wave sim:/TX_TB/uart_itf/*
+add wave -r sim:/TX_TB/tx_DUT/tx/clk_baudrate/baudrate_enable
+run 100ns

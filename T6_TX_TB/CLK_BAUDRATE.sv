@@ -1,4 +1,4 @@
-module clk_baudrate #(
+module CLK_BAUDRATE #(
     parameter baudrate = 5
 )(
     input logic clk,

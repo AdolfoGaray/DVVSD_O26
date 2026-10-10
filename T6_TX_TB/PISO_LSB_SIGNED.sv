@@ -15,7 +15,7 @@ always_comb begin
 end
 
 always_ff @(posedge clk or negedge rst) begin
-	if(rst) register <= '0;
+	if(!rst) register <= '0;
 	if(baudrate_enable) begin
 		register <= register_next;
 	end

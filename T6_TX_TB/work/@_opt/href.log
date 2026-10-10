@@ -1,0 +1,11 @@
+BEGIN 1:TX_TB:fast:work
+    testeador :  1:TX_TB:fast:work
+END 
+BEGIN 3:UART_INTERFACE:fast__2:work
+    data_out :  1:TX_WRAPPER:fast:work
+    rst :  1:TX_WRAPPER:fast:work
+    send_bit :  1:TX_WRAPPER:fast:work
+    ready :  1:TX_WRAPPER:fast:work
+    clk :  1:TX_WRAPPER:fast:work
+    data_in :  1:TX_WRAPPER:fast:work
+END 

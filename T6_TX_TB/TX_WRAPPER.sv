@@ -11,12 +11,12 @@ TX #(
     .baudrate(baudrate),
     .parity(parity)
 ) tx (
-    .clk(UART_INTERFACE.clk),
-    .rst(UART_INTERFACE.rst),
-    .data_in(UART_INTERFACE.data_in),
-    .send_bit(UART_INTERFACE.send_bit),
-    .data_out(UART_INTERFACE.data_out),
-    .ready(UART_INTERFACE.ready)
+    .clk(uart_itf.clk),
+    .rst(uart_itf.rst),
+    .data_in(uart_itf.data_in),
+    .send_bit(uart_itf.send_bit),
+    .data_out(uart_itf.data_out),
+    .ready(uart_itf.ready)
 );
 
 endmodule
