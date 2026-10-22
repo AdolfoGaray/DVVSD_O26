@@ -1,0 +1,176 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s12c _opt
+R1
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/adolf/DVVSD_O26/Q4
+T_opt
+!i145 1
+!i144 0
+!s110 1792639019
+VYZFkW00j?D_LP@=]cVa7E2
+Z3 04 12 4 work handshake_TB fast 0
+=1-44a3bba8794c-6ad9802a-de-2d5c
+R1
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+Z6 !s124 OEM10U4 
+Z7 !s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z8 tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+Z9 OL;O;2025.2;82
+R2
+T_opt1
+!i145 1
+!i144 0
+!s110 1792643192
+VS3OK0Hk9k6mlO3?Fm6kK80
+R3
+=1-44a3bba8794c-6ad99077-129-477c
+R1
+R4
+R5
+R6
+R7
+o-quiet -auto_acc_if_foreign -work work +acc
+R8
+n@_opt1
+R9
+R2
+vDoubleFlop
+Z10 2handshake.sv
+Z11 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z12 !s110 1792643289
+!i10b 1
+!s100 niW7oG3HV>MIQ?5kId<7Y2
+I_d<o`BB]58zO?S58=^L5F0
+S1
+R2
+Z13 w1792643233
+Z14 8handshake.sv
+Z15 Fhandshake.sv
+!i122 39
+L0 33 21
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+Z17 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z18 !s108 1792643289.000000
+Z19 !s107 handshake.sv|
+Z20 !s90 -reportprogress|300|handshake.sv|
+!i113 0
+Z21 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z22 tCvgOpt 0 defaultOptions 1085333592
+n@double@flop
+vhandshake
+R10
+R11
+R12
+!i10b 1
+!s100 >YzFLTWHH2PY_Y`X=XAMf0
+IQ@6=Qk<^zNh9?>9d]?90d3
+S1
+R2
+R13
+R14
+R15
+!i122 39
+L0 1 30
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+vhandshake_TB
+2handshake_TB.sv
+R11
+R12
+!i10b 1
+!s100 2hBXmI`mQB]6ZaOioKWiB0
+IfC?iATI`M?K^z`J9;Cf0D2
+S1
+R2
+w1792643023
+8handshake_TB.sv
+Fhandshake_TB.sv
+!i122 40
+L0 3 26
+R16
+R17
+r1
+!s85 0
+31
+R18
+!s107 handshake_TB.sv|
+!s90 -reportprogress|300|handshake_TB.sv|
+!i113 0
+R21
+R22
+nhandshake_@t@b
+vOneShot
+R10
+R11
+R12
+!i10b 1
+!s100 Dc3ehVRg20]fEiPRPo>jT1
+Idje2;5XXCD4jT1n]kYCml3
+S1
+R2
+R13
+R14
+R15
+!i122 39
+L0 55 24
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R22
+n@one@shot

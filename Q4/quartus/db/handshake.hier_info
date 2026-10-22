@@ -1,0 +1,30 @@
+|handshake
+clkA => clkA.IN1
+clkB => clkB.IN1
+rst_n => rst_n.IN2
+signal_i => next_data_o_flopA.OUTPUTSELECT
+signal_o <= OneShot:oneShot.data_o
+busy_o <= busy_o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|handshake|DoubleFlop:doubleFlop
+clk => meta_stable_data.CLK
+clk => clean_data.CLK
+rst_n => meta_stable_data.ACLR
+rst_n => clean_data.ACLR
+data_i => meta_stable_data.DATAIN
+data_o <= clean_data.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|handshake|OneShot:oneShot
+clk => meta_stable_data.CLK
+clk => clean_data.CLK
+clk => delayed_data.CLK
+rst_n => meta_stable_data.ACLR
+rst_n => clean_data.ACLR
+rst_n => delayed_data.ACLR
+data_i => meta_stable_data.DATAIN
+data_o <= data_o.DB_MAX_OUTPUT_PORT_TYPE
+data_clean_oneShot <= <GND>
+
+
