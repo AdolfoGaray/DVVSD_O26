@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/adolf/DVVSD_O26/PRACTICANDO
+vAssertions
+2Assertions.sv
+Z1 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z2 !s110 1795442245
+!i10b 1
+!s100 ]C`=clz^HWHo9P8k2P2W93
+I>ZZ]gCR=`l];Y@6o]4cRP3
+S1
+R0
+w1795441704
+8Assertions.sv
+FAssertions.sv
+!i122 1
+L0 1 23
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z5 !s108 1795442244.000000
+!s107 Assertions.sv|
+!s90 -reportprogress|300|Assertions.sv|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0 defaultOptions 1085333592
+n@assertions
+vAssertions_TB
+2Assertions_TB.sv
+R1
+R2
+!i10b 1
+!s100 VC<I[U8T9G`4C_O1HEBTU3
+InMH3@bO0GLOE[nhH6Z5cb2
+S1
+R0
+w1795442212
+8Assertions_TB.sv
+FAssertions_TB.sv
+!i122 2
+L0 2 18
+R3
+R4
+r1
+!s85 0
+31
+!s108 1795442245.000000
+!s107 Assertions_TB.sv|
+!s90 -reportprogress|300|Assertions_TB.sv|
+!i113 0
+R6
+R7
+n@assertions_@t@b
+vpll
+2./pll_sim/pll.vo
+!s110 1795442244
+!i10b 1
+!s100 =mfzE;jZ;lc^ebbK?zOnO1
+IPZhWa`DzIZ[4Le:2g^08>1
+R0
+w1795440510
+8./pll_sim/pll.vo
+F./pll_sim/pll.vo
+!i122 0
+L0 32 264
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 ./pll_sim/pll.vo|
+!s90 -reportprogress|300|./pll_sim/pll.vo|
+!i113 0
+R6
+R7

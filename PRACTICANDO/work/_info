@@ -1,0 +1,159 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/adolf/DVVSD_O26/PRACTICANDO
+T_opt
+!i145 1
+!i144 0
+!s110 1795484358
+V_J0kNB@:mOnS=m45R864<1
+04 13 4 work Assertions_TB fast 0
+=1-44a3bba8794c-6b04eac6-e-5e90
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U2 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vAssertions
+2Assertions.sv
+Z3 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z4 !s110 1795484354
+!i10b 1
+!s100 K2MX<9zHFS4U?9BU`VA531
+I9ZUkDSUiG8fElGZfORBD21
+S1
+R2
+w1795442289
+8Assertions.sv
+FAssertions.sv
+!i122 55
+L0 1 23
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z7 !s108 1795484354.000000
+!s107 Assertions.sv|
+!s90 -reportprogress|300|Assertions.sv|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+n@assertions
+vAssertions_TB
+2Assertions_TB.sv
+R3
+R4
+!i10b 1
+!s100 o;amLFFzekQMG:[QU=_@e0
+IeKoKbecQ5j1>`[eAdIfS=0
+S1
+R2
+w1795484352
+8Assertions_TB.sv
+FAssertions_TB.sv
+!i122 56
+L0 2 28
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 Assertions_TB.sv|
+!s90 -reportprogress|300|Assertions_TB.sv|
+!i113 0
+R8
+R9
+n@assertions_@t@b
+vpll
+2pll.v
+Z10 !s110 1795441841
+!i10b 1
+!s100 0V[dJ2dSDZOPzW6ODYoVV1
+I26b2A0UoFk]3BTae^iL5X2
+R2
+w1795440514
+8pll.v
+Fpll.v
+!i122 16
+L0 8 15
+R5
+R6
+r1
+!s85 0
+31
+Z11 !s108 1795441841.000000
+!s107 pll.v|
+!s90 -reportprogress|300|pll.v|
+!i113 0
+R8
+R9
+vpll_0002
+2pll/pll_0002.v
+R10
+!i10b 1
+!s100 bCT:H@XKngl=H>fMd3LiR0
+I^=FOgJKmIG8aP0Ll2Y^U60
+R2
+w1795440502
+8pll/pll_0002.v
+Fpll/pll_0002.v
+!i122 15
+L0 2 85
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 pll/pll_0002.v|
+!s90 -reportprogress|300|pll/pll_0002.v|
+!i113 0
+R8
+R9
