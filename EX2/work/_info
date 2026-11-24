@@ -1,0 +1,95 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/adolf/DVVSD_O26/EX2
+T_opt
+!i145 1
+!i144 0
+!s110 1795489938
+V;]f^_Omf]Q6:GV_0fIYTi0
+04 25 4 work SS_oneshot_five_cycles_TB fast 0
+=1-44a3bba8794c-6b050091-3bd-71bc
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U2 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vSS_oneshot_five_cycles
+2SS_oneshot_five_cycles.sv
+Z3 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z4 !s110 1795489935
+!i10b 1
+!s100 E5Z28?F4n5P88OeM76Nam2
+I`LHhnOigTCO0;N1@6JnD62
+S1
+R2
+w1795489821
+8SS_oneshot_five_cycles.sv
+FSS_oneshot_five_cycles.sv
+!i122 17
+L0 11 42
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z7 !s108 1795489935.000000
+!s107 SS_oneshot_five_cycles.sv|
+!s90 -reportprogress|300|SS_oneshot_five_cycles.sv|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+n@s@s_oneshot_five_cycles
+vSS_oneshot_five_cycles_TB
+2SS_oneshot_five_cycles_TB.sv
+R3
+R4
+!i10b 1
+!s100 L@KK^mNlKQK0I6`QjTikB3
+I=JbLQHDLMAK]b2[B=Nz]h1
+S1
+R2
+w1795489931
+8SS_oneshot_five_cycles_TB.sv
+FSS_oneshot_five_cycles_TB.sv
+!i122 18
+L0 1 58
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 SS_oneshot_five_cycles_TB.sv|
+!s90 -reportprogress|300|SS_oneshot_five_cycles_TB.sv|
+!i113 0
+R8
+R9
+n@s@s_oneshot_five_cycles_@t@b
